@@ -1,8 +1,8 @@
 {
   "name": "101327087_comp3133_assignment1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Assignment 1 - COMP3133",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
