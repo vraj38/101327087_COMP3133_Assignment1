@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const EmployeeSchema = new mongoose.Schema({
 
-    firstname: {
+    first_name: {
         type: String,
         required: [true, 'Please enter first name'],
         trim: true,
@@ -10,7 +10,7 @@ const EmployeeSchema = new mongoose.Schema({
         maxlength: 100,
     },
 
-    lastname: {
+    last_name: {
         type: String,
         required: [true, 'Please enter last name'],
         trim: true,
